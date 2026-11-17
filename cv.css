@@ -1,36 +1,55 @@
 /* Ajout image arrière-plan en-tête */
 
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-image: url(images/nature.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
+/*Mise en place d'une banière marron en en-tête */
+#navigation {
+    display: flex;
+    align-items: center;
+    background-color: rgba(81, 60, 7, 0.885);
+}
+
+/*Mise en page des liens Compétences, Portofolio, CV, Contact */
 #navigation a {
     color: rgb(228, 208, 26);
-    font-weight:lighter;
+    font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(81, 60, 7, 0.759);
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 0px;
-    transition: all 0.4 ease;
+    transition: all 0.4s ease;
+    position: relative;
     text-decoration: none;
 }
 
-#navigation a:hover{
+/*Mise en page du surlignement quand on passe la souris sur les liens */
+#navigation a:hover {
     background-color: rgba(81, 79, 79, 0.875);
-    color:rgb(233, 233, 232);
-    font-weight: bold;
-    text-decoration:none;
+    color: rgb(233, 233, 232);
+    text-decoration: none;
+}
 
+/* Nom et prénom en haut à gauche de la bannière en blanc */
+.identity {
+    color: antiquewhite;
+    margin-right: auto;
+}
 
+/* Nom et prénom en gras */
+.nom {
+    font-weight:bold;
+}
 
-
-
+/* Recherche d'alternance en doré en haut à gauche de la bannière */
+.alternance{
+color:rgb(228, 208, 26);
 }

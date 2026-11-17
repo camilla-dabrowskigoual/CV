@@ -9,9 +9,11 @@ body {
 /*Mise en place d'une banière marron en en-tête */
 #navigation {
     display: flex;
-    align-items: center;
+    align-items:center;
     background-color: rgba(81, 60, 7, 0.885);
     height: 80px;
+    gap:50px;
+    padding-right: 80px;
 }
 
 /*Mise en page des liens Compétences, Portofolio, CV, Contact */
@@ -19,7 +21,7 @@ body {
     color: rgb(228, 208, 26);
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 10px;
+    padding: 15px 15px;
     border-radius: 0px;
     transition: all 0.4s ease;
     position: relative;
@@ -105,13 +107,14 @@ header {
     color: bisque;
     text-align: center;
     transform: translateY(300px);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .DEVOPS h2 {
     font-size: 70px;
     font-weight: 300;
     letter-spacing: 17px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .DEVOPS p {

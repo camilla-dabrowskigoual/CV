@@ -1,0 +1,36 @@
+/* Ajout image arrière-plan en-tête */
+
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-image: url(images/nature.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+#navigation a {
+    color: rgb(228, 208, 26);
+    font-weight:lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(81, 60, 7, 0.759);
+    padding: 5px 10px;
+    border-radius: 0px;
+    transition: all 0.4 ease;
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    background-color: rgba(81, 79, 79, 0.875);
+    color:rgb(233, 233, 232);
+    font-weight: bold;
+    text-decoration:none;
+
+
+
+
+
+}

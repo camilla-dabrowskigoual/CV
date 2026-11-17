@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     background-color: rgba(81, 60, 7, 0.885);
+    height: 80px;
 }
 
 /*Mise en page des liens Compétences, Portofolio, CV, Contact */
@@ -36,6 +37,14 @@ body {
 .identity {
     color: antiquewhite;
     margin-right: auto;
+    margin-left : 125px;
+    font-size: 20px;
+}
+
+.identity p{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:1.5
 }
 
 /* Nom et prénom en gras */
@@ -51,7 +60,7 @@ body {
 /*Objectifs*/
 .objectifs {
     width: 50%;
-    background-color: beige;
+    background-color: bisque;
     text-align: center;
     padding: 100px;
 }
@@ -86,4 +95,28 @@ header {
     display: flex;
     flex : 1;
     position:relative
+}
+
+#welcome {
+    color: rgb(81, 79, 79) ;
+}
+
+.DEVOPS {
+    color: bisque;
+    text-align: center;
+    transform: translateY(300px);
+}
+
+.DEVOPS h2 {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 17px;
+    margin-bottom: 15px;
+}
+
+.DEVOPS p {
+    font-size: 20px;
+    letter-spacing: 3px;
+
+
 }
